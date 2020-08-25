@@ -9,7 +9,22 @@ function App() {
   const [state, setState] = useState({
     s: "",
     results: [],
-    selected: {},
+    selected: {
+      Actors: "Michael Keaton, Emma Stone, Kenny Chin, Jamahl Garrison-Lowe",
+      Awards: "Won 4 Oscars. Another 192 wins & 285 nominations.",
+      Director: "Alejandro G. Iñárritu",
+      Genre: "Comedy, Drama",
+      Plot:
+        "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
+      Poster:
+        "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg",
+      Title: "Birdman or (The Unexpected Virtue of Ignorance)",
+      Writer:
+        "Alejandro G. Iñárritu, Nicolás Giacobone, Alexander Dinelaris, Armando Bo, Raymond Carver (play)",
+      Year: "2014",
+      imdbID: "tt2562232",
+      imdbRating: "7.7",
+    },
   })
   const apiurl = "http://www.omdbapi.com/?apikey=eb6ce01d"
 

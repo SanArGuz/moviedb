@@ -28,6 +28,9 @@ const Detail = ({ selected, closeDetail }) => {
             <br />
             <br />
             <strong>Awards:</strong> {selected.Awards}
+            <br />
+            <br />
+            <strong>Genre:</strong> {selected.Genre}
           </p>
         </div>
       </div>
